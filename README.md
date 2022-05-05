@@ -1,4 +1,4 @@
-<div> 
+<div styles={display: flex}> 
   <img width="200" height="200" src="https://github.com/mauriciorocha1968/DIO_TQI_Fullstack_Developer/blob/main/assets/TQI.png">
   <h1>TQI Fullstack Developer</h1>
 </div>
