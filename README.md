@@ -1,5 +1,3 @@
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mauriciorocha1968&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-
 <div align="center"> 
   <img width="200" height="200" src="https://github.com/mauriciorocha1968/DIO_TQI_Fullstack_Developer/blob/main/assets/TQI.png">
 </div>
