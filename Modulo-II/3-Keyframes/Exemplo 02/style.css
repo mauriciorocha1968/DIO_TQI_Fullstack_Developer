@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbot {
+  min-height: 3rem;
+  width: 5rem;
+  border-radius: 10px;
+  border: 3px solid #ff9400;
+  background-color: #ff9400;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  transform: translateX(0);
+  z-index: 99;
+
+  /* animation: chatTranslate 2s ease-in-out infinite; */
+}
+
+.chatbot::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -1.3rem;
+  left: 1rem;
+  border-left: 2px solid transparent;
+  border-right: 17px solid transparent;
+  border-top: 18px solid #ff9400;
+}
+
+.chatbot__loading {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: scale(1);
+}
+
+.chatbot__loading:nth-child(1) {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.chatbot__loading:nth-child(2) {
+  animation: pulse 2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.chatbot__loading:nth-child(3) {
+  animation: pulse 2s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.chatbot2 {
+  min-height: 3rem;
+  width: 5rem;
+  border-radius: 10px;
+  border: 3px solid #ff131a;
+  background-color: #ff131a;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  transform: translateX(0);
+  margin-top: -4rem;
+  margin-left: 3.5rem;
+  z-index: 2;
+  /* animation: chatTranslate 2s ease-in-out infinite; */
+}
+
+.chatbot2::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -1.3rem;
+  left: 3rem;
+  border-left: 17px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 18px solid #ff131a;
+}
+
+.chatbot2__loading {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: scale(1);
+}
+
+.chatbot2__loading:nth-child(3) {
+  animation: pulse2 2s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+@keyframes pulse2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
