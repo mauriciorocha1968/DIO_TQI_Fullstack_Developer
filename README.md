@@ -1,8 +1,6 @@
 <div> 
   <h1>TQI Fullstack Developer</h1>
-  <p align="center">
     <img width="200" height="200" src="https://github.com/mauriciorocha1968/DIO_TQI_Fullstack_Developer/blob/main/assets/TQI.png">
-  </p>
 </div>
 O Bootcamp **TQI Fullstack Developer** é um _programa gratuito para formação em desenvolvimento fullstack_ e recrutamento de desenvolvedores juniores pela TQI. O programa apresenta cursos, desafios práticos e mentorias em tecnologias essenciais para front-end e back-end, além de banco de dados e introdução à Quality Assurance (QA) para testes e qualidade. A TQI tem oportunidades abertas para pessoas que queiram trabalhar, evoluir na carreira e crescer em uma empresa que valoriza pessoas em primeiro lugar e que está no ranking dos Melhores Empresas para Trabalhar 2021.
 
